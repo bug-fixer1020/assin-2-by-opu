@@ -1,0 +1,133 @@
+/* 
+font 
+ */
+@import url('https://fonts.cdnfonts.com/css/miama');
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&family=Inter:wght@100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+  background-color: rgba(0, 0, 0, 0.888);
+  color: white;
+  font-family: serif;
+}
+
+/*fonts  */
+.miama {
+  font-family: 'Miama', sans-serif;
+}
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-variation-settings:
+    "slnt" 0;
+}
+
+.nav-bar {
+  margin-right: 10%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* universal contant */
+.primary-btn {
+  background-color: rgba(255, 68, 0, 0.812);
+  color: white;
+  border-radius: 15px;
+  font-size: 20px;
+  margin-left: -40px;
+  padding: 5px 10px;
+}
+
+/* universal contant ending */
+.site-title {
+  color: rgb(255, 89, 0);
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-bar ul {
+  display: flex;
+  gap: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.144);
+  border-radius: 15px;
+  font-size: 20px;
+
+}
+
+.nav-bar ul li {
+  list-style: none;
+  padding: 0px 3px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-bar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.pdn-resize {
+  margin-right: 10px;
+}
+
+.header-contant {
+  margin-left: 10%;
+  margin-right: 10%;
+  display: flex;
+  gap: 30px;
+  height: 300px;
+}
+
+.big-text {
+  font-size: 90px;
+  font-family: sans-serif;
+  font-weight: bolder;
+}
+
+.head-description {
+  margin-top: -10px;
+}
+
+.twin-buttons {
+  margin-left: 7%;
+  position: relative;
+  display: flex;
+  gap: 20px;
+}
+
+.dow-btn {
+  border: 1px solid rgba(255, 255, 255, 0.255);
+  border-radius: 15px;
+  font-size: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  padding: 5px 10px;
+}
+
+.heading-img {
+  margin-left: 10%;
+}
+
+/* Body designing */
+.motiv-description {
+  margin-top: 25%;
+  text-align: center;
+}
+
+.Habits {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+.habit-des {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+}
+
+/* four img with heading and description */
+.title-heading-img {
+  margin-top: 30%;
+}
